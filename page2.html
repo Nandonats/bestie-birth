@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes 🎊</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page2">
+    <canvas id="confetti-canvas"></canvas>
+    
+    <div class="container">
+        <div class="content">
+            <audio id="background-music" loop>
+                <source src="Monokrom.mp3" type="audio/mpeg">
+            </audio>
+
+            <h1 class="main-title animate-in">You're Amazing!</h1>
+            
+            <div class="wishes-container">
+                <div class="wish-card">
+                    <div class="wish-icon">💖</div>
+                    <h3>You're One of a Kind</h3>
+                    <p>Your smile lights up every room, and your friendship means the world to me!</p>
+                </div>
+                
+                <div class="wish-card">
+                    <div class="wish-icon">🌟</div>
+                    <h3>Keep Shining Bright</h3>
+                    <p>May this year bring you closer to all your dreams and aspirations!</p>
+                </div>
+                
+                <div class="wish-card">
+                    <div class="wish-icon">🎯</div>
+                    <h3>Celebrate Big!</h3>
+                    <p>You deserve all the happiness, success, and love in the universe!</p>
+                </div>
+
+                <div class="wish-card">
+                    <div class="wish-icon">🗺️</div>
+                    <h3>Embrace the Adventure</h3>
+                    <p>May your path be full of exciting new stories and memories that last a lifetime!</p>
+                </div>
+            </div>
+            
+            <div class="marquee-container">
+                <div class="marquee marquee-reverse">
+                    <span>🎉 Best wishes on your special day! 🎂 Cheers to another amazing year! 🎊 You're absolutely incredible! 🎈</span>
+                </div>
+            </div>
+            
+            <div class="button-group">
+            <button class="birthday-button" onclick="goToPage3(); playMusic();">
+                There's More! Click Here 💝
+            </button>
+            
+            <button class="back-button" onclick="goBack()">
+                ← Back
+            </button>
+            </div>  
+        </div>
+    </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>
